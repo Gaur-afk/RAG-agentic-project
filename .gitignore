@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/processed/*
+!data/processed/.gitkeep
+# Raw corpus is a cloned repo (has its own .git); re-clone per README
+data/raw/
+
+# Local planning/working docs (not published)
+CLAUDE.md
+PROGRESS.md
+ROADMAP.md
+.claude/settings.local.json
